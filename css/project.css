@@ -3,6 +3,13 @@
     margin-left: auto;
 }
 
+#eng {
+    display: none;
+}
+#rus {
+    display: block;
+}
+
 .row {
     box-sizing: border-box;
     display: flex;
@@ -65,12 +72,39 @@
 
 .header .socials {
     margin: auto;
-    width: 300px;
+    width: 200px;
 }
 
 .header .socials a {
     font-size: 2rem;
 }
+
+.header .change-lang {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color:#197558;
+    border: 2px solid #197558;
+    border-radius: 20px;
+    padding: 8px 26px;
+    font-weight: 500;
+}
+
+.header .change-lang:hover {
+    background-color: #197558;
+    color: white;
+    border: 2px solid #197558;
+}
+
+.header .change-lang:active,
+.header .change-lang:focus {
+    background-color: #5ab38c;
+    border: 2px solid #5ab38c;
+    color: white;
+    outline: none;
+}
+
 
 img {
     width: 100%;
@@ -140,9 +174,17 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+button {
     color: #494949;
-    font-family: Varela, Helvetica, Arial, sans-serif
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif
+}
+
+.h1,
+.h2,
+h1,
+h2 {
+    font-weight: 500;
 }
 
 p {
