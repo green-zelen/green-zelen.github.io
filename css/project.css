@@ -80,7 +80,7 @@
 }
 
 .header .change-lang {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     background-color: white;
