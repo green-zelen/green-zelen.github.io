@@ -64,7 +64,7 @@
                 <button id="russian" class="change-lang" onclick="RusLang()">Русский</button>
             </header>
             <div class="board">
-                <div class="contant">
+                <div class="content">
                     <section class="post WattaBuy-iOs">
                         <div class="line">
                             <div class="row flex-row tight-row">
@@ -709,13 +709,13 @@
                     </div>
                     <div class="greeting">
                         <p>Привет, меня зовут Мария и я занимаюсь разработкой интерфейсов для b2b/b2c.</p>
-                        <p>Вот здесь можно глянуть мое <a href="https://www.notion.so/86487943c8f747ea980247cdd4b1e945" target="_blank">резюме</a>.</p>
+                        <p>Вот здесь можно глянуть моё <a href="https://www.notion.so/86487943c8f747ea980247cdd4b1e945" target="_blank">резюме</a>.</p>
                     </div>
                 </div>
-                <button id="english" class="change-lang" onclick="EngLang()">English</button>
+                <!-- <button id="english" class="change-lang" onclick="EngLang()">English</button> -->
             </header>
             <div class="board">
-                <div class="contant">
+                <div class="content">
                     <section class="post ris">
                         <div class="line">
                             <div class="row">
@@ -723,38 +723,109 @@
                                     <div class="description web">
                                         <h2>Retailer Information System в СберМаркет / Web / 2021</h2>
                                         <div class="row flex-row">
-                                            <div class="column one-half">
+                                            <div class="column full">
                                                 <div class="description left">
-                                                    <h3>Контекст</h3>
-                                                    <p>Внутренний продукт в СберМаркет для быстрого подключения новых ретейлеров и магазинов. Подключение нового ретейлера – это ресурсозатратная задача, на которую нужно выделять отдельного человека, который поможет ретейлеру настроить инфообмен. В среднем это 40 часов на каждого ретейлера. Задача проекта уменьшить это время в идеале до 8-12 часов. На этапе MVP успехом бы было уменьшить это время вдаое.</p>
-                                                    <h3>Ограничения</h3>
-                                                    <p>Продукт реализован на текущей дизайн-системе с ограничениями на разработку кастомных компонентов – можем подключить только оправданный кастом. Текущая дизайн-система не заточена под админки, поэтому дополнительно разрабатывали таблицы и элементы для форм.  </p>
-                                                </div>
-                                                </div>
-                                            <div class="column one-half">
-                                                <div class="description right">
-                                                    <h3>Проблема</h3>
-                                                    <p>В старой версии каждый магазин нужно было добавлять через форму вручную: добавить адрес, ключ магазина в базе и т.д. Магазинов сотни, ручная работа обходится дорого и заведение магазинов затягивается. 
+                                                    <h4>Контекст</h4>
+                                                    <p>Внутренний продукт в&nbsp;СберМаркет для быстрого подключения новых ретейлеров и&nbsp;магазинов. Подключение нового ретейлера&nbsp;&mdash; это ресурсозатратная задача, на&nbsp;которую выделяют отдельного человека. Он&nbsp;поможет ретейлеру настроить инфообмен. В&nbsp;среднем это 40&nbsp;часов на&nbsp;каждого ретейлера. Задача проекта уменьшить это время в&nbsp;идеале до&nbsp;8-12&nbsp;часов. На&nbsp;этапе MVP успехом&nbsp;бы было уменьшить это время вдвое.</p>
+                                                    <h4>Ограничения</h4>
+                                                    <p>Продукт реализован на&nbsp;текущей дизайн-системе с&nbsp;ограничениями на&nbsp;разработку кастомных компонентов. Текущая дизайн-система СберМаркета не&nbsp;заточена под админки, поэтому дополнительно разрабатывали таблицы и&nbsp;элементы для форм.</p>
+                                                    <h4>Проблема</h4>
+                                                    <p>В&nbsp;старой версии каждый магазин добавлялся через форму вручную: добавить адрес, ключ магазина в&nbsp;базе и&nbsp;т.д. Магазинов сотни, ручная работа обходится дорого и&nbsp;заведение магазинов затягивается.
                                                     </p>
-                                                    <p>Я предложила добавить массовый импорт данных из существующих xls-списков, которые приходят в отдел контента, и не использовать концепцию ручное добавление вообще. Рисеч и интервью с пользователями показали, что при заведении ретейлера они не могут править ошибки и копипастят даннфе из xls в том виде, в котором они приходят. По ошибкам составляют отдельные запросы ретейлерам и правят их постфактум.</p>
+                                                </div>
+                                            </div>
+                                            <div class="column full">
+                                                <div class="description">
+                                                    <p>Я&nbsp;предложила добавить массовый импорт данных из&nbsp;xls-списков, которые приходят в&nbsp;отдел контента, и&nbsp;не&nbsp;использовать концепцию ручного добавления. Рисеч и&nbsp;интервью с&nbsp;пользователями показали, что при добавлении магазинов не&nbsp;получается сразу править ошибки и&nbsp;пользователи копипастят данные из&nbsp;xls в&nbsp;том виде, в&nbsp;котором их&nbsp;получают. По&nbsp;ошибкам составляют отдельные запросы ретейлерам и&nbsp;правят их&nbsp;постфактум&nbsp;&mdash; поэтому форма для редактирования магазина на&nbsp;этапе MVP не&nbsp;нужна.</p>
+                                                    <p>Здесь можно посмотреть <a href="https://www.figma.com/proto/4ByxwIjNFWzOdwmfNcqQrT/Portfolio-Cases?page-id=2%3A15148&node-id=40%3A8084&viewport=501%2C48%2C0.1&scaling=min-zoom&starting-point-node-id=40%3A8102" target="_blank">короткий прототип</a> с&nbsp;моими комментариями.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row flex-row">
-                                    <div class="column full">
+                                    <div class="column over-width">
                                         <div class="image in-grid">
                                             <a href="images/screens/ris/ris.png" target="_blank">
                                                 <img class="screen" src="images/screens/ris/ris.png"
-                                                    alt="Создание магазиновв Retailer Information System">
+                                                    alt="Добавление магазинов в Retailer Information System">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row flex-row">
-                                    <div class="column full">
-                                        <p>Здесь можно посмотреть <a href="https://www.figma.com/proto/4ByxwIjNFWzOdwmfNcqQrT/Portfolio-Cases?page-id=2%3A15148&node-id=2%3A20491&viewport=247%2C48%2C0.4&scaling=min-zoom&starting-point-node-id=2%3A20508">короткий прототип с моими комментариями</a>.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="post ris">
+                        <div class="line">
+                            <div class="row">
+                                <div class="column full">
+                                    <div class="description web">
+                                        <h2>Product Information Managment System в СберМаркет / Web / 2020-2021</h2>
+                                        <div class="row flex-row">
+                                            <div class="column full">
+                                                <div class="description left">
+                                                    <h4>Контекст</h4>
+                                                    <p>Внутренний продукт в&nbsp;СберМаркет для обработки карточек товаров и&nbsp;категорий перед отправкой на&nbsp;витрину. Категорийные специалисты и&nbsp;контент-менеджеры&nbsp;&mdash; это основные пользователи сервиса.</p>
+                                                    <h4>Ограничения</h4>
+                                                    <p>Исторически сложилось, что сервис начали верстать на&nbsp;Material Ui. Можно добавлять новые кастомизированные компоненты, если они оправданы. Например, мультиселекты, множественные вводы сущностей, драг-н-дроп и&nbsp;т.д., но&nbsp;приветствуются недорогие решения на&nbsp;текущей дизайн-системе.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row flex-row">
+                                        <div class="column full">
+                                            <h3>Добавление фильтров в категории</h3>
+                                            <div class="description">
+                                                <h4>Проблема</h4>
+                                                <p>На&nbsp;сайте и&nbsp;в&nbsp;приложении внутри категорий используются фильтры, чтобы уменьшить вложенность дерева. Добавление этих фильтров вручную увеличивает тайм-ту-маркет и&nbsp;не&nbsp;оправданно для нескольких тысяч категорий и&nbsp;десятков тысяч товаров.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column over-width">
+                                            <div class="image in-grid">
+                                                <a href="images/screens/pims/sbermarket.png" target="_blank">
+                                                    <img class="screen" src="images/screens/pims/sbermarket.png"
+                                                        alt="Фильтры в СберМаркете">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="column full">
+                                            <div class="description">
+                                                <br>
+                                                <br>
+                                                <p>Я&nbsp;создала инструмент для составления правил, по&nbsp;которым привязка товаров к&nbsp;фильтрам внутри категории происходит автоматически. При создании фильтра &laquo;Красная рыба&raquo; туда попадут товары с&nbsp;типами &laquo;Форель&raquo;, &laquo;Кижуч&raquo; и&nbsp;т.п. В&nbsp;фильтр &laquo;Итальянская кухня&raquo; все товары, у&nbsp;которых страной-производителем указана Италия. В&nbsp;фильтр &laquo;Взять в&nbsp;самолёт&raquo; не&nbsp;попадут напитки объёмом более 100&nbsp;мл.</p>
+                                            </div>
+                                        </div>
+                                        <div class="column over-width">
+                                            <div class="image in-grid">
+                                                <a href="images/screens/pims/pims1.png" target="_blank">
+                                                    <img class="screen" src="images/screens/pims/pims1.png"
+                                                        alt="Добавление фильтров в категории">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row flex-row">
+                                        <div class="column full">
+                                            <br>
+                                            <br>
+                                            <h3>Просмотр привязанных к категориям фильтров и товаров</h3>
+                                            <div class="description">
+                                                <h4>Проблема</h4>
+                                                <p>Фильтры и&nbsp;категории создаются десятками и&nbsp;несмотря на&nbsp;количество автоматизаций, легко упустить привязки фильтров к&nbsp;категориям и&nbsp;привязки товаров к&nbsp;фильтрам. Категорийному специалисту приходилось вручную перепроверять свою работу по&nbsp;каждой категории в&nbsp;админке или на&nbsp;b2c-витрине уже после проливки категорий на&nbsp;прод.
+                                                </p>
+                                                <p>Я&nbsp;разработала решение, где все связи &laquo;категория-фильтр-товары&raquo; видны в&nbsp;админке из&nbsp;дерева категорий, с&nbsp;которым работают категорийные специалисты. Пользователь открывает режим просмотра витрины и&nbsp;видит, какие фильтры привязаны к&nbsp;категориям, какие товары привязаны к&nbsp;фильтрам и&nbsp;встречаются&nbsp;ли товары без привязок&nbsp;&mdash; всё это на&nbsp;одном табло. Таким образом, пользователь быстро находит пустые фильтры или фильтры с&nbsp;ошибками, если к&nbsp;ним привязались неправильные товары.</p>
+                                            </div>
+                                        </div>
+                                        <div class="column over-width">
+                                            <div class="image in-grid">
+                                                <a href="images/screens/pims/pims2.png" target="_blank">
+                                                    <img class="screen" src="images/screens/pims/pims2.png"
+                                                        alt="Просмотр витрины">
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -943,8 +1014,8 @@
                                 <div class="column full">
                                     <div class="description web">
                                         <h2>Tomoru / Web / 2020</h2>
-                                        <p>Tomoru – это графический конструктор аудио и текстовых ботов, а так же комплекс админок, обслуживающих готовых ботов.</p>
-                                        <p><strong>Задача: </strong>визуализировать алгоритмы ботов со сложной бизнес-логикой, работу с интентами и сущностями, вынести большую часть процесса сборки ботов из кода в браузер, создать дизайн-систему для всех проектов бизнеса (конструктор, административные панели).</p>
+                                        <p>Tomoru&nbsp;&mdash; это графический конструктор аудио и&nbsp;текстовых ботов, а&nbsp;также комплекс админок, обслуживающих готовых ботов.</p>
+                                        <p><strong>Задача: </strong>визуализировать алгоритмы ботов со&nbsp;сложной бизнес-логикой, работу с&nbsp;интентами и&nbsp;сущностями, вынести большую часть процесса сборки ботов из&nbsp;кода в&nbsp;браузер, создать ui-kit для всех проектов бизнеса (конструктор, административные панели).</p>
                                     </div>
                                 </div>
                                 <div class="row flex-row">
@@ -1006,12 +1077,12 @@
                                 <div class="column full">
                                     <div class="description web">
                                         <h2>Unibid / Web / 2016-2019</h2>
-                                        <p>Unibid – это сервис для управления консолидированными закупками для сетевого ритейла из стран СНГ, созданный чтобы оптимизировать сотрудничество торговых сетей с производителями из Китая через посредника South China Service Group. </p>
-                                        <p><strong>Задача: </strong>создать единую систему закупа оптовыми товарами с полным документооборотом сделок, визуализацией логистики взамен традиционного ведения сделок через звонки/электронную почту.</p>
+                                        <p>Unibid&nbsp;&mdash; это сервис для управления консолидированными закупками для сетевого рeтейла из&nbsp;стран СНГ, созданный чтобы оптимизировать сотрудничество торговых сетей с&nbsp;производителями из&nbsp;Китая через посредника South China Service Group.</p>
+                                        <p><strong>Задача: </strong>создать единую систему закупа оптовыми товарами с&nbsp;полным документооборотом сделок, визуализацией логистики взамен традиционного ведения сделок через звонки или электронную почту.</p>
                                     </div>
                                 </div>
                                 <div class="row flex-row">
-                                    <div class="column full">
+                                    <div class="column over-width">
                                         <div class="image in-grid">
                                             <a href="images/screens/unibid/screens_landing.c770ecc0.png" target="_blank">
                                                 <img class="screen" src="images/screens/unibid/screens_landing.c770ecc0.png"
@@ -1095,8 +1166,8 @@
                                 <div class="column full">
                                     <div class="description web">
                                         <h2>Viamme / Web / 2019</h2>
-                                        <p>Viamme – это небольшой стартап для бронирования экскурсий и продажи текстовых туристических гайдов от локальных жителей/экскурсоводов. Сейчас проект заморожен.</p>
-                                        <p><strong>Задача: </strong>Сделать первую версию сайта с минимальным функционалом выбора экскурсий и поиска текстовых гайдов, с возможностью для отдельных гидов предлагать свои услуги самостоятельно на сайте через личный кабинет и контролировать брони.</p>
+                                        <p>Viamme&nbsp;&mdash; это стартап для бронирования экскурсий и&nbsp;продажи текстовых туристических гайдов от&nbsp;локальных жителей и&nbsp;экскурсоводов. Проект заморожен.</p>
+                                        <p><strong>Задача: </strong>Сделать первую версию сайта с&nbsp;минимальным функционалом выбора экскурсий и&nbsp;поиска текстовых гайдов, с&nbsp;возможностью для отдельных гидов предлагать свои услуги самостоятельно на&nbsp;сайте через личный кабинет и&nbsp;контролировать брони.</p>
                                     </div>
                                 </div>
                                 <div class="row flex-row">
@@ -1129,7 +1200,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="post voipscan-new-features">
+                    <!-- <section class="post voipscan-new-features">
                         <div class="line">
                             <div class="row flex-row tight-row">
                                 <div class="column one-half">
@@ -1378,9 +1449,9 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> -->
                     <footer class="footer">
-                        <div class="copyright"><strong>greenzelen © 2020</strong></div>
+                        <div class="copyright"><strong>greenzelen © 2022</strong></div>
                     </footer>
                 </div>
             </div>

@@ -55,6 +55,12 @@
     flex-direction: column;
 }
 
+.over-width {
+    width: 180%;
+    margin-left: -16rem;
+    margin-right: -16rem;
+}
+
 .header {
     padding: 5rem 5rem 2rem;
 }
@@ -187,8 +193,13 @@ h2 {
     font-weight: 500;
 }
 
+h4 {
+    margin-bottom: 0;
+}
+
 p {
-    line-height: 1.5rem
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 a {
