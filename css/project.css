@@ -4,10 +4,10 @@
 }
 
 #eng {
-    display: none;
+    display: block;
 }
 #rus {
-    display: block;
+    display: none;
 }
 
 .row {
